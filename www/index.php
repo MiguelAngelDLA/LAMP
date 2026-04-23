@@ -9,5 +9,5 @@ $conn = new mysqli($host, $user, $pass, $db);
 if ($conn->connect_error) {
     die("Error de conexión: " . $conn->connect_error);
 }
-echo "¡Conexión exitosa a MySQL en Google Cloud!";
+echo "¡Conexión exitosa";
 ?>
